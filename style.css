@@ -6,7 +6,6 @@
 }
 
 .sect1{
-    height: 100vh;
     max-height: 1000px;
     background-image: url(./image/header.png);
     background-repeat: no-repeat;
@@ -113,10 +112,8 @@
 
 @media(max-width: 1300px){
     .sect2 .content{margin-top: 80px;}
-
     .sect2 .img{
-        width: 90%;
-        height: 90%;
+        width: 650px;
     }
 }
 
@@ -157,6 +154,14 @@
         margin-bottom: 40px;
     }
 
+    .sect2 .content p{
+        font-size: 17px;
+    }
+
+    .sect2 .img{
+        width: 580px;
+    }
+
 }
 
 @media(max-width: 1050px){
@@ -187,6 +192,22 @@
         width: 250px;
         font-size: 35px;
         padding: 12px;
+    }
+
+    .sect2 .img{
+        width: 550px;
+    }
+    .sect2 .content{
+        margin-top: 70px;
+    }
+
+    .sect2 .content h2{
+        font-size: 22px;
+        margin-bottom: 35px;
+    }
+
+    .sect2 .content p{
+        font-size: 15px;
     }
 
 }
@@ -222,6 +243,28 @@
         padding: 10px;
     }
 
+    .sect2 .img{
+        width: 500px;
+    }
+    .sect2 .content{
+        margin-top: 60px;
+    }
+
+    .sect2 .content h2{
+        font-size: 20px;
+        margin-bottom: 30px;
+    }
+
+    .sect2 .content p{
+        font-size: 12px;
+    }
+
+    @media(max-width: 870px){
+        .sect2 .img{
+            width: 450px;
+        }
+    }
+
     @media(max-width: 800px){
 
         .sect1 .menu ul{
@@ -251,6 +294,22 @@
             width: 180px;
             font-size: 22px;
             padding: 8px;
+        }
+
+        .sect2 .img{
+            width: 400px;
+        }
+        .sect2 .content{
+            margin-top: 45px;
+        }
+    
+        .sect2 .content h2{
+            font-size: 15px;
+            margin-bottom: 22px;
+        }
+    
+        .sect2 .content p{
+            font-size: 10px;
         }
 
     @media(max-width: 680px){
@@ -285,6 +344,43 @@
                 font-size: 17px;
                 padding: 6px;
             }
+
+            .sect2 .img{
+                width: 340px;
+            }
+            .sect2 .content{
+                margin-top: 35px;
+            }
+        
+            .sect2 .content h2{
+                font-size: 17px;
+                margin-bottom: 25px;
+            }
+        
+            .sect2 .content p{
+                font-size: 10px;
+            }
+
+            @media(max-width: 630px){
+                .sect2 .img{
+                    width: 300px;
+                }
+                .sect2 .content{
+                    margin-top: 30px;
+                }
+
+            }
+
+            @media(max-width: 580px){
+                .sect2 .img{
+                    width: 280px;
+                }
+                .sect2 .content{
+                    margin-top: 27px;
+                }
+
+            }
+
             @media(max-width: 530px){
 
                 .sect1 .menu ul{
@@ -317,6 +413,23 @@
                     font-size: 12px;
                     padding: 3px;
                 }
+
+                .sect2 .img{
+                    width: 260px;
+                }
+                .sect2 .content{
+                    margin-top: 25px;
+                }
+            
+                .sect2 .content h2{
+                    font-size: 15px;
+                    margin-bottom: 20px;
+                }
+            
+                .sect2 .content p{
+                    font-size: 8px;
+                }
+
                 @media(max-width: 420px){
 
                     .sect1 .menu ul{
@@ -349,4 +462,30 @@
                         font-size: 10px;
                         padding: 2px;
                     }
+
+                    .sect2 .img{
+                        width: 200px;
+                    }
+                    .sect2 .content{
+                        margin-top: 20px;
+                    }
+                
+                    .sect2 .content h2{
+                        font-size: 12px;
+                        margin-bottom: 15px;
+                    }
+                
+                    .sect2 .content p{
+                        font-size: 6px;
+                    }
+                    @media(max-width: 360px){
+                        .sect2 .img{
+                            width: 150px;
+                        }
+                        .sect2 .content{
+                            margin-top: 5px;
+                        }
+        
+                    }
+
 }
