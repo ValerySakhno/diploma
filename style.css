@@ -110,11 +110,119 @@
     font-size: 19px;
 }
 
+.sect3{
+    background: #95a76e73;
+    max-height: 375px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.sect3 ul{
+    list-style-type: none;
+    margin-top: 25%;
+}
+
+.sect3 ul li h3{
+    font-family: 'GoodDog Cool', arial;
+    font-size: 25px;
+    color: #e8e8e8;
+}
+
+.sect3 ul li p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 17px;
+    font-weight: 300;
+    color: #d3d3d3;
+    max-width: 300px;
+    margin-bottom: 25%;
+}
+
+.sect5{
+    background: #95a76e73;
+    max-height: 400px;
+}
+
+.sect5 h2{
+    font-family: 'GoodDog Cool', arial;
+    font-size: 42px;
+    color: #afc67b;
+    padding-top: 70px;
+    text-align: center;
+}
+
+.sect5 p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 21px;
+    color: #d3d3d3;
+    padding-bottom: 50px;
+    text-align: center;
+    }
+
+.sect5 .img{
+    display: flex;
+    justify-content: center;
+    padding-left: 5px;
+    padding-bottom: 100px;
+}
+
+.sect6{
+    height: 1730px;
+    background-image: url(./image/sect6back.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.sect6 .snos{
+    padding-top: 240px;
+}
+
+.sect6 .snos h2{
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'GoodDog Cool', arial;
+    font-size: 71px;
+    color: #e5e5e5;
+    padding-top: 50px;
+}
+
+.sect6 .snos p{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 48px;
+    text-transform: uppercase;
+    color: #e5e5e5;
+    padding-top: 20px;
+}
+
+.sect6 .snos .item{
+    display: flex;
+    justify-content: space-around;
+}
+
+.sect6 .snos .item p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 17px;
+}
+
+..sect6 .snos .item span{
+    font-family: 'GoodDog Cool', arial;
+    font-size: 17px;
+}
+
+.sect6 .snos ul{
+    list-style-type:none;
+}
+
 @media(max-width: 1300px){
     .sect2 .content{margin-top: 80px;}
     .sect2 .img{
         width: 650px;
     }
+    .sect6 .snos{
+        padding-top: 200px;
+    }
+
 }
 
 @media(max-width: 1200px){
@@ -160,6 +268,10 @@
 
     .sect2 .img{
         width: 580px;
+    }
+
+    .sect6 .snos{
+        padding-top: 160px;
     }
 
 }
@@ -210,6 +322,11 @@
         font-size: 15px;
     }
 
+    .sect6 .snos{
+        padding-top: 120px;
+    }
+
+
 }
 
 @media(max-width: 950px){
@@ -259,9 +376,61 @@
         font-size: 12px;
     }
 
+    .sect6 .snos{
+        padding-top: 80px;
+    }
+
+    .sect6 .snos h2{
+        font-size: 65px;
+        padding-top: 30px;
+    }
+
+    .sect6 .snos p{
+        font-size: 42px;
+    }
+
+    .sect6 .snos .item ul li p{
+        font-size: 15px;
+    }
+
+    .sect6 .snos .item ul li span{
+        font-size: 15px;
+    }
+}
+
+
     @media(max-width: 870px){
         .sect2 .img{
             width: 450px;
+        }
+        .sect3 ul li h3{
+            font-size: 20px;
+        }
+        .sect3 ul li p{
+            font-size: 15px;
+        }
+        .sect6 .snos{
+            padding-top: 70px;
+        }
+    
+        .sect6 .snos h2{
+            font-size: 60px;
+            padding-top: 25px;
+        }
+
+        .sect6 .snos p{
+            font-size: 38px;
+        }
+
+        .sect6 .snos .item ul li .img{
+            height: 65px;
+        }
+    
+        .sect6 .snos .item ul li p{
+            font-size: 12px;
+        }
+        .sect6 .snos .item ul li span{
+            font-size: 12px;
         }
     }
 
@@ -312,6 +481,43 @@
             font-size: 10px;
         }
 
+        .sect6 .snos p{
+            padding-top: 0;
+        }
+
+
+    @media(max-width: 720px){
+        .sect3 ul li h3{
+            font-size: 18px;
+        }
+        .sect3 ul li p{
+            font-size: 13px;
+        }
+        .sect6 .snos{
+            padding-top: 40px;
+        }
+    
+        .sect6 .snos h2{
+            font-size: 50px;
+            padding-top: 15px;
+        }
+
+        .sect6 .snos p{
+            font-size: 32px;
+        }
+
+        .sect6 .snos .item ul li .img{
+            height: 50px;
+        }
+    
+        .sect6 .snos .item ul li p{
+            font-size: 10px;
+        }
+        .sect6 .snos .item ul li span{
+            font-size: 10px;
+        }
+    }
+
     @media(max-width: 680px){
 
             .sect1 .menu ul{
@@ -361,12 +567,50 @@
                 font-size: 10px;
             }
 
+            .sect3 ul li h3{
+                font-size: 15px;
+            }
+            .sect3 ul li p{
+                font-size: 10px;
+            }
+
+            .sect5 h2{
+                font-size: 35px;
+                padding-top: 40px;
+            }
+
+            .sect5 p{
+                font-size: 18px;
+            }
+
             @media(max-width: 630px){
                 .sect2 .img{
                     width: 300px;
                 }
                 .sect2 .content{
                     margin-top: 30px;
+                }
+                .sect6 .snos{
+                    padding-top: 25px;
+                }
+            
+                .sect6 .snos h2{
+                    font-size: 45px;
+                    padding-top: 10px;
+                }
+                .sect6 .snos p{
+                    font-size: 25px;
+                }
+        
+                .sect6 .snos .item ul li .img{
+                    height: 35px;
+                }
+            
+                .sect6 .snos .item ul li p{
+                    font-size: 8px;
+                }
+                .sect6 .snos .item ul li span{
+                    font-size: 8px;
                 }
 
             }
@@ -377,6 +621,29 @@
                 }
                 .sect2 .content{
                     margin-top: 27px;
+                }
+
+                .sect3 ul li h3{
+                    font-size: 13px;
+                }
+                .sect3 ul li p{
+                    font-size: 9px;
+                }
+
+                .sect3 .img{
+                    height: 25px;
+                }
+
+                .sect5 h2{
+                    font-size: 32px;
+                }
+    
+                .sect5 p{
+                    font-size: 15px;
+                }
+
+                .sect5 .img{
+                    padding-bottom: 30px;
                 }
 
             }
@@ -430,7 +697,47 @@
                     font-size: 8px;
                 }
 
-                @media(max-width: 420px){
+                .sect3 ul li h3{
+                    font-size: 10px;
+                }
+                .sect3 ul li p{
+                    font-size: 8px;
+                }
+
+                .sect5 h2{
+                    font-size: 25px;
+                    padding-top: 20px;
+                }
+    
+                .sect5 p{
+                    font-size: 12px;
+                }
+                .sect6 .snos{
+                    padding-top: 10px;
+                }
+            
+                .sect6 .snos h2{
+                    font-size: 35px;
+                    padding-top: 5px;
+                }
+                .sect6 .snos p{
+                    font-size: 20px;
+                }
+        
+                .sect6 .snos .item ul li .img{
+                    height: 25px;
+                }
+            
+                .sect6 .snos .item ul li p{
+                    font-size: 7px;
+                }
+                .sect6 .snos .item ul li span{
+                    font-size: 7px;
+                }
+            
+            }
+
+                @media(max-width: 425px){
 
                     .sect1 .menu ul{
                         padding-bottom: 10px;
@@ -478,14 +785,71 @@
                     .sect2 .content p{
                         font-size: 6px;
                     }
-                    @media(max-width: 360px){
+
+                    .sect3 ul li h3{
+                        font-size: 8px;
+                    }
+                    .sect3 ul li p{
+                        font-size: 7px;
+                    }
+                    .sect5 h2{
+                        font-size: 20px;
+                        padding-bottom: 20px;
+                        padding-top: 20px;
+                    }
+        
+                    .sect5 p{
+                        font-size: 9px;
+                        padding-bottom: 10px;
+                    }
+                    .sect5 .img{
+                        padding-bottom: 0px;
+                    }
+
+                }
+
+                @media(max-width: 400px){
+                    .sect6 .snos h2{
+                        font-size: 30px;
+                        padding-top: 3px;
+                    }
+                    .sect6 .snos p{
+                        font-size: 15px;
+                    }
+            
+                    .sect6 .snos .item ul li .img{
+                        height: 20px;
+                    }
+                
+                    .sect6 .snos .item ul li p{
+                        font-size: 5px;
+                    }
+                    .sect6 .snos .item ul li span{
+                        font-size: 5px;
+                    }
+                }
+         
+
+                @media(max-width: 360px){
                         .sect2 .img{
                             width: 150px;
                         }
                         .sect2 .content{
                             margin-top: 5px;
                         }
-        
+                        .sect3 ul li h3{
+                            font-size: 7px;
+                        }
+                        .sect3 ul li p{
+                            font-size: 4,5px;      
+                    }
+                @media(max-width: 340px){
+                        .sect3 ul li h3{
+                            font-size: 6px;   
+                        }
+                        .sect3 .img{
+                            height: 20px;
+                        }                        
                     }
 
 }
