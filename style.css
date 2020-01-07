@@ -1,3 +1,51 @@
+/*RESET.CSS*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*END RESET.CSS*/
+
 .exam{
     max-width: 1440px;
     height: 8000px;
@@ -167,6 +215,7 @@
 
 .sect6{
     height: 1730px;
+    max-height: 1730px;
     background-image: url(./image/sect6back.png);
     background-size: 100%;
     background-repeat: no-repeat;
@@ -175,6 +224,7 @@
 
 .sect6 .snos{
     padding-top: 240px;
+    background: relative #95a76e7c;
 }
 
 .sect6 .snos h2{
@@ -214,14 +264,195 @@
     list-style-type:none;
 }
 
-@media(max-width: 1300px){
+.sect8{
+    height: 780px;
+    background-image: url(./image/sect8.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+
+}
+
+.sect9{
+    height: 825px;
+    background: #95a76e73;
+}
+
+.sect9 h2{
+    text-align: center;
+    padding-top: 45px;
+    font-family: 'GoodDog Cool', arial;
+    font-size: 77px;
+    text-transform: uppercase;
+    color: #afc67b;
+    margin: 0 auto;
+}
+
+.sect9 h3{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 48px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 55px;
+    color: #e7e7e7;
+    margin: 0 auto;
+}
+
+.sect9 .cards{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.sect9 .cards .card{
+    margin-left: 25px;
+    height: 500px;
+    width: 340px;
+}
+.sect9 .cards .card .card-body h5{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    color: #585858;
+}
+
+.sect9 .cards .card .card-body p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 17px;
+    color: #4f4e4e;
+}
+
+.sect9 .cards .card .card-body span{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 17px;
+    color: #4f4e4e;
+}
+
+.sect9 .cards .card .card-body .a{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.sect10{
+    height: 340px;
+}
+
+.sect10 h2{
+    text-align: center;
+    padding-top: 15px;
+    font-family: 'GoodDog Cool', arial;
+    font-size: 60px;
+    text-transform: uppercase;
+    color: #afc67b;
+    margin: 0 auto;
+}
+
+.sect10 h3{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 19px;
+    margin: 0 auto;
+    padding-top: 10px;
+    color: #afc67b;
+    text-align: center;
+}
+
+.sect10 h4{
+    text-align: center;
+    padding-top: 20px;
+    font-family: 'GoodDog Cool', arial;
+    font-size: 30px;
+    color: #afc67b;
+    margin: 0 auto;
+}
+
+.sect10 .button{
+    padding-top: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+.sect10 .button .item{
+    margin-left: 5px;
+}
+
+.sect11{
+    height: 325px;
+    background: #95a76e73;
+    display: flex;
+    justify-content: space-around;
+    padding-left: 15px;
+}
+
+.sect11 .left{
+    padding-top: 75px;
+    width: 50%;
+    margin-left: 7%;
+}
+
+.sect11 .left h2{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    margin: 0 auto;
+    color: #ffffff;
+}
+
+.sect11 .left p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 19px;
+    margin: 0 auto;
+    color: #ffffff;
+}
+
+.sect11 .right{
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 75px;
+    width: 50%;
+    margin-right: 10%;
+}
+
+.sect11 .right h2{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    margin: 0 auto;
+    color: #ffffff;
+    text-align: left;
+}
+
+
+.sect11 .right ul li{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 19px;
+    margin: 0 auto;
+    color: #ffffff;
+    list-style-type: none;
+    padding-top: 10px;
+    text-decoration: none;
+}
+
+.sect11 .right .item2 ul li{
+    font-weight: 300;
+}
+
+
+
+    @media(max-width: 1300px){
     .sect2 .content{margin-top: 80px;}
     .sect2 .img{
         width: 650px;
     }
+    .sect6{
+        height: 1400px;
+    }
     .sect6 .snos{
         padding-top: 200px;
     }
+
+    .sect8{
+        height: 720px;}
 
 }
 
@@ -270,9 +501,16 @@
         width: 580px;
     }
 
+    .sect6{
+        height: 1300px;
+    }
+
     .sect6 .snos{
         padding-top: 160px;
     }
+
+    .sect8{
+        height: 630px;}
 
 }
 
@@ -322,11 +560,34 @@
         font-size: 15px;
     }
 
+    .sect6{
+        height: 1100px;
+    }
+
     .sect6 .snos{
         padding-top: 120px;
     }
 
+    .sect8{
+        height: 570px;}
 
+
+.sect9 .cards .card{
+    width: 300px;
+    height: 460px;
+}
+
+.sect10 h2{
+    font-size: 55px;
+}
+
+.sect10 h3{
+    font-size: 15px;
+}
+
+.sect10 h4{
+    font-size: 25px;
+}
 }
 
 @media(max-width: 950px){
@@ -376,6 +637,10 @@
         font-size: 12px;
     }
 
+    .sect6{
+        height: 1000px;
+    }
+
     .sect6 .snos{
         padding-top: 80px;
     }
@@ -396,6 +661,9 @@
     .sect6 .snos .item ul li span{
         font-size: 15px;
     }
+
+    .sect8{
+        height: 520px;}
 }
 
 
@@ -432,6 +700,55 @@
         .sect6 .snos .item ul li span{
             font-size: 12px;
         }
+
+        .sect6{
+            height: 900px;
+        }
+
+        .sect8{
+            height: 470px;
+        }
+        .sect10 h2{
+            font-size: 50px;
+        }
+        
+        .sect10 h3{
+            font-size: 12px;
+        }
+        
+        .sect10 h4{
+            font-size: 22px;
+        } 
+
+        .sect11 .left h2{
+            font-size: 18px;
+        }
+
+        .sect11 .right h2{
+            font-size: 18px;
+        }
+
+
+        .sect11 .left p{
+            font-size: 15px;
+        }
+
+        .sect11 .right ul li{
+            font-size: 15px;
+        }
+
+        .sect11 .right .item{
+            width: 100px;
+        }
+        .sect11 .right .item2{
+            width: 100px;
+        }
+
+        .sect11 .left p{
+            width: 200px;
+            margin-left: 0;
+        }
+      
     }
 
     @media(max-width: 800px){
@@ -485,6 +802,27 @@
             padding-top: 0;
         }
 
+        .sect6{
+            height: 850px;
+        }
+
+        .sect8{
+            height: 430px;
+        }
+
+        .sect11 .left p{
+            font-size: 14px;
+        }
+    
+        .sect11 .right ul li{
+            font-size: 14px;
+        }
+
+        .sect11 .right{
+            margin-right: 10%;
+        }
+    }
+
 
     @media(max-width: 720px){
         .sect3 ul li h3{
@@ -492,6 +830,10 @@
         }
         .sect3 ul li p{
             font-size: 13px;
+        }
+
+        .sect6{
+            height: 800px;
         }
         .sect6 .snos{
             padding-top: 40px;
@@ -516,6 +858,9 @@
         .sect6 .snos .item ul li span{
             font-size: 10px;
         }
+
+        .sect8{
+            height: 400px;}
     }
 
     @media(max-width: 680px){
@@ -583,6 +928,42 @@
                 font-size: 18px;
             }
 
+            .sect6{
+                height: 700px;
+            }
+
+            .sect8{
+                height: 370px;
+            }
+
+            .sect10 h2{
+                font-size: 50px;
+            }
+            
+            .sect10 h3{
+                font-size: 10px;
+            }
+            
+            .sect10 h4{
+                font-size: 18px;
+            }
+
+            .sect11 .left p{
+                font-size: 9px;
+            }
+    
+            .sect11 .right ul li{
+                font-size: 9px;
+            }
+
+            .sect11 .left p{
+                width: 150px;
+                margin-left: 0;
+            }
+        }
+
+
+
             @media(max-width: 630px){
                 .sect2 .img{
                     width: 300px;
@@ -611,6 +992,33 @@
                 }
                 .sect6 .snos .item ul li span{
                     font-size: 8px;
+                }
+
+                .sect6{
+                    height: 620px;
+                }
+
+                .sect8{
+                    height: 340px;
+                }
+
+                .sect10 h4{
+                    font-size: 15px;
+                }
+    
+                .sect11 .left p{
+                    font-size: 7px;
+                }
+        
+                .sect11 .right ul li{
+                    font-size: 7px;
+                }
+                .sect11 .right{
+                    width: 40%;
+                }
+    
+                .sect11 .left{
+                    width: 40%;
                 }
 
             }
@@ -644,6 +1052,46 @@
 
                 .sect5 .img{
                     padding-bottom: 30px;
+                }
+
+                .sect8{
+                    height: 300px;
+                }
+                .sect10 h2{
+                    font-size: 45px;
+                }
+                
+                .sect10 h4{
+                    font-size: 15px;
+                }
+
+                .sect11 .left h2{
+                    font-size: 12px;
+                }
+
+                .sect11 .right h2{
+                    font-size: 12px;
+                }
+
+
+                .sect11 .left p{
+                    font-size: 10px;
+                }
+        
+                .sect11 .right ul li{
+                    font-size: 10px;
+                }
+
+                .sect11 .left p{
+                    width: 120px;
+                }
+
+                .sect11 .right .item{
+                    width: 80px;
+                }
+
+                .sect11 .right .item2{
+                    width: 80px;
                 }
 
             }
@@ -712,6 +1160,10 @@
                 .sect5 p{
                     font-size: 12px;
                 }
+
+                .sect6{
+                    height: 480px;
+                }
                 .sect6 .snos{
                     padding-top: 10px;
                 }
@@ -734,6 +1186,9 @@
                 .sect6 .snos .item ul li span{
                     font-size: 7px;
                 }
+
+                .sect8{
+                    height: 255px;}
             
             }
 
@@ -806,6 +1261,34 @@
                         padding-bottom: 0px;
                     }
 
+                    .sect6{
+                        height: 430px;
+                    }
+
+                    .sect8{
+                        height: 215px;
+                    }
+
+                    .sect11 .left h2{
+                        font-size: 10px;
+                    }
+
+                    .sect11 .right h2{
+                        font-size: 10px;
+                    }
+
+                    .sect11 .left p{
+                        width: 80px;
+                    }
+    
+                    .sect11 .right .item{
+                        width: 60px;
+                    }
+    
+                    .sect11 .right .item2{
+                        width: 60px;
+                    }
+
                 }
 
                 @media(max-width: 400px){
@@ -827,6 +1310,10 @@
                     .sect6 .snos .item ul li span{
                         font-size: 5px;
                     }
+
+                    .sect6{
+                        height: 380px;
+                    }
                 }
          
 
@@ -843,13 +1330,20 @@
                         .sect3 ul li p{
                             font-size: 4,5px;      
                     }
+
+                    .sect8{
+                        height: 190px;}
                 @media(max-width: 340px){
                         .sect3 ul li h3{
                             font-size: 6px;   
                         }
                         .sect3 .img{
                             height: 20px;
-                        }                        
+                        }   
+                        
+                        .sect6{
+                            height: 350px;
+                        }
                     }
 
 }
