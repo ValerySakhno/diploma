@@ -48,7 +48,8 @@ table {
 
 .exam{
     max-width: 1440px;
-    height: 8000px;
+    max-height: 8000px;
+    height: 100%;
     background: #212121;
     margin: 0 auto;
 }
@@ -147,7 +148,7 @@ table {
 
 .sect2 .content h2{
     color: #95a76e73;
-    font-family: 'GoodDog Cool', arial;
+    font-family: 'Good cool';
     font-size: 29px;
     margin-bottom: 45px;
 }
@@ -171,7 +172,7 @@ table {
 }
 
 .sect3 ul li h3{
-    font-family: 'GoodDog Cool', arial;
+    font-family: 'Good cool';
     font-size: 25px;
     color: #e8e8e8;
 }
@@ -185,13 +186,86 @@ table {
     margin-bottom: 25%;
 }
 
+.sect4{
+    max-height: 1210px;
+    height: 100%;
+}
+
+.sect4 .all{
+    max-width: 100%;
+    height: 1080px;
+    width: 1080px;
+    background: #95a76e73;
+    margin-top: 85px;
+    margin-bottom: 85px;
+    margin-left: 12%;
+    margin-right: 12%;
+}
+
+.sect4 .all h2{
+    color: #95a76e73;
+    font-family: 'Good cool';
+    font-size: 45px;
+    padding-top: 70px;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.sect4 .all h4{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 42px;
+    font-weight: 300;
+    color: #d3d3d3;
+    padding-top: 15px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+
+.sect4 .all .container1 .grids{
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr 3fr;
+    grid-template-rows: auto auto;
+    padding-top: 70px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.sect4 .all .container1 .grids .content{
+    max-width: 100%;
+}
+
+.sect4 .all .container1 .grids h3{
+    color: #95a76e73;
+    font-family: 'Good cool';
+    font-size: 29px;
+    padding-top: 5%;
+    margin-bottom: 0;
+}
+
+.sect4 .all .container1 .grids h5{
+    color: #e8e8e8;
+    font-family: 'MyriadPro Regular';
+    font-size: 16px;
+    padding-top: 2%;
+    margin-bottom: 0;
+}
+
+.sect4 .all .container1 .grids p{
+    color: #e8e8e8;
+    font-family: 'Good cool';
+    font-size: 25px;
+    padding-top: 2%;
+    margin-bottom: 0;
+}
+
 .sect5{
     background: #95a76e73;
     max-height: 400px;
 }
 
 .sect5 h2{
-    font-family: 'GoodDog Cool', arial;
+    font-family: 'Good cool';
     font-size: 42px;
     color: #afc67b;
     padding-top: 70px;
@@ -230,7 +304,7 @@ table {
 .sect6 .snos h2{
     text-align: center;
     text-transform: uppercase;
-    font-family: 'GoodDog Cool', arial;
+    font-family: 'Good cool';
     font-size: 71px;
     color: #e5e5e5;
     padding-top: 50px;
@@ -256,12 +330,37 @@ table {
 }
 
 ..sect6 .snos .item span{
-    font-family: 'GoodDog Cool', arial;
+    font-family: 'Good cool';
     font-size: 17px;
 }
 
 .sect6 .snos ul{
     list-style-type:none;
+}
+
+.sect7{
+    height: 100%;
+    max-height: 455px;
+    text-align: center;
+}
+
+.sect7 h2{
+    font-family: 'Good cool';
+    font-size: 77px;
+    color: #e8e8e8;
+}
+
+.sect7 .container2 ul{
+    display: grid;
+    grid-template-columns: 4fr 4fr 4fr;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 17px;
+    color: #e5e5e5;
+}
+
+.sect7 .container2 .item form{
+    width: 235px;
+    
 }
 
 .sect8{
@@ -280,7 +379,7 @@ table {
 .sect9 h2{
     text-align: center;
     padding-top: 45px;
-    font-family: 'GoodDog Cool', arial;
+    font-family: 'Good cool';
     font-size: 77px;
     text-transform: uppercase;
     color: #afc67b;
@@ -341,7 +440,7 @@ table {
 .sect10 h2{
     text-align: center;
     padding-top: 15px;
-    font-family: 'GoodDog Cool', arial;
+    font-family: 'Good cool';
     font-size: 60px;
     text-transform: uppercase;
     color: #afc67b;
@@ -360,7 +459,7 @@ table {
 .sect10 h4{
     text-align: center;
     padding-top: 20px;
-    font-family: 'GoodDog Cool', arial;
+    font-family: 'Good cool';
     font-size: 30px;
     color: #afc67b;
     margin: 0 auto;
@@ -444,6 +543,10 @@ table {
     .sect2 .img{
         width: 650px;
     }
+    .sect4 .all{
+        height: 950px;
+        width: 950px;
+    }
     .sect6{
         height: 1400px;
     }
@@ -452,7 +555,8 @@ table {
     }
 
     .sect8{
-        height: 720px;}
+        height: 720px;
+    }
 
 }
 
@@ -499,6 +603,11 @@ table {
 
     .sect2 .img{
         width: 580px;
+    }
+
+    .sect4 .all{
+        height: 900px;
+        width: 900px;
     }
 
     .sect6{
@@ -558,6 +667,11 @@ table {
 
     .sect2 .content p{
         font-size: 15px;
+    }
+
+    .sect4 .all{
+        height: 820px;
+        width: 820px;
     }
 
     .sect6{
@@ -637,6 +751,11 @@ table {
         font-size: 12px;
     }
 
+    .sect4 .all{
+        height: 750px;
+        width: 750px;
+    }
+
     .sect6{
         height: 1000px;
     }
@@ -676,6 +795,11 @@ table {
         }
         .sect3 ul li p{
             font-size: 15px;
+        }
+
+        .sect4 .all{
+            height: 650px;
+            width: 650px;
         }
         .sect6 .snos{
             padding-top: 70px;
@@ -798,6 +922,11 @@ table {
             font-size: 10px;
         }
 
+        .sect4 .all{
+            height: 600px;
+            width: 600px;
+        }
+
         .sect6 .snos p{
             padding-top: 0;
         }
@@ -830,6 +959,11 @@ table {
         }
         .sect3 ul li p{
             font-size: 13px;
+        }
+
+        .sect4 .all{
+            height: 550px;
+            width: 550px;
         }
 
         .sect6{
@@ -971,6 +1105,11 @@ table {
                 .sect2 .content{
                     margin-top: 30px;
                 }
+
+                .sect4 .all{
+                    height: 500px;
+                    width: 500px;
+                }
                 .sect6 .snos{
                     padding-top: 25px;
                 }
@@ -1040,6 +1179,11 @@ table {
 
                 .sect3 .img{
                     height: 25px;
+                }
+
+                .sect4 .all{
+                    height: 450px;
+                    width: 450px;
                 }
 
                 .sect5 h2{
@@ -1152,6 +1296,11 @@ table {
                     font-size: 8px;
                 }
 
+                .sect4 .all{
+                    height: 370px;
+                    width: 370px;
+                }
+
                 .sect5 h2{
                     font-size: 25px;
                     padding-top: 20px;
@@ -1247,6 +1396,11 @@ table {
                     .sect3 ul li p{
                         font-size: 7px;
                     }
+
+                    .sect4 .all{
+                        height: 320px;
+                        width: 320px;
+                    }
                     .sect5 h2{
                         font-size: 20px;
                         padding-bottom: 20px;
@@ -1292,6 +1446,11 @@ table {
                 }
 
                 @media(max-width: 400px){
+
+                    .sect4 .all{
+                        height: 300px;
+                        width: 300px;
+                    }
                     .sect6 .snos h2{
                         font-size: 30px;
                         padding-top: 3px;
@@ -1328,7 +1487,12 @@ table {
                             font-size: 7px;
                         }
                         .sect3 ul li p{
-                            font-size: 4,5px;      
+                            font-size: 4,5px;         
+                    }
+
+                    .sect4 .all{
+                        height: 280px;
+                        width: 280px;
                     }
 
                     .sect8{
@@ -1340,6 +1504,11 @@ table {
                         .sect3 .img{
                             height: 20px;
                         }   
+
+                        .sect4 .all{
+                            height: 260px;
+                            width: 260px;
+                        }
                         
                         .sect6{
                             height: 350px;
